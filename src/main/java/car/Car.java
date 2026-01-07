@@ -15,7 +15,6 @@ public class Car {
     public String brake() {
         return color + " 자동차가 멈췄습니다.";
     }
-
     public void displayCarInfo() {
         System.out.println("이 차의 색깔은 " + color + "색이고,");
         System.out.println("최고 속도는 " + speed + "km/h입니다. ");

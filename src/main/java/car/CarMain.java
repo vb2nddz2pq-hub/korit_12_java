@@ -12,7 +12,6 @@ public class CarMain {
         car2.speed = 180;
         car1.drive();
         car2.drive();
-
         System.out.println(car1.brake());
         System.out.println(car2.brake());
 
