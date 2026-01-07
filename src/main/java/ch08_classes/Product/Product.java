@@ -36,8 +36,8 @@ package ch08_classes.products;
     6. 각 객체에 대해서 showInfo()를 호출할 것.
  */
 public class Product {
-    int productNum;
-    String productName;
+    public int productNum;
+    public String productName;
     // 기본 생성자는 알아서 만들어지지만
     // 매개변수 생성자를 하나라도 만드는 순간에,
     // 오류가 발생합니다.
