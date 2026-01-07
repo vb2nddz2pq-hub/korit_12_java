@@ -4,41 +4,49 @@ import java.util.Scanner;
 
 public class ClassAMain {
     public static void main(String[] args) {
+        // 객체 생성 방법
+        // 클래스명 객체명 = new 클래스명();
         ClassA classA1 = new ClassA();
+        Scanner scanner = new Scanner(System.in);
 
-        classA1.num = 100;
+        // 필드에 값 대입하는 방법
+        // 객체명.속성명 = 값;
+        classA1.num = 1;
         classA1.name = "김일";
+        classA1.score = 4.5;
 
-        ClassA classA2 = new ClassA();
-        classA2.num = 200;
-        classA2.name = "김이";
-        System.out.println(classA2.name + "의 번호는 " + classA2.num + "입니다.");
-
-        // 메서드 호출 방법 -> 이미 설명했습니다.
-        // 객체명.메서드명()
+        System.out.println(classA1.name + " 학생의 학번은 " + classA1.num
+                + " 번 이고, 점수는 " + classA1.score + "점입니다.");
 
         classA1.callName();
+
+        // 메서드를 호출하는 방법
+        // 객체명.메서드명()
+//        int num = scanner.nextInt();
+
+        // ClassA의 객체 classA2를 생성하시고,
+        // 김이 / 2 / 100을 필드에 대입하고,
+        // 다음과 같이 출력하시오.
+        // 실행 예
+        // 100 번 학생의 이름은 김이이고, 점수는 2.0입니다.
+        // 김삼을 부릅니다.
+
+        // 객체 생성
+        ClassA classA2 = new ClassA();
+        classA2.name = "김이";
+        classA2.score = 2;
+        classA2.num = 100;
+
+        System.out.println(classA2.num + " 번 학생의 이름은 " +
+                classA2.name + "이고, 점수는 " +
+                classA2.score + "입니다.");
+        // 필드에 값을 재대입해줬습니다.
+        classA2.name = "김삼";
+
         classA2.callName();
-        // 이상의 두 method 호출 결과는
-        // 서로 '다르다'고 말해야 합니다.
-
-        /*
-            Scanner의 인스턴스를 생성하고
-            ClassA의 인스턴스인 classA3를 생성한 다음,
-            다음과 같이 실행될 수 있도록 작성하시오.
 
 
-
-         */
-        Scanner scanner = new Scanner(System.in);
-        ClassA classA3 = new ClassA();
-        System.out.print("이름을 입력하세요 >>> ");
-        classA3.name = scanner.nextLine();
-        System.out.print("번호를 입력하세요 >>> ");
-        classA3.num = scanner.nextInt();
-        System.out.print("점수를 입력하세요 >>> ");
-        classA3.score = scanner.nextDouble();
-
-        classA3.callName();
+        // Car / CarMain
+        // CarMain 클래스에만 main 적용
     }
 }
