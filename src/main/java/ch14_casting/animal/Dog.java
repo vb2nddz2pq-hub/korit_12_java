@@ -1,0 +1,14 @@
+package ch14_casting.animal;
+
+public class Dog extends Animal{
+    @Override
+    public void makeSound() {
+        super.makeSound();
+            System.out.println("개가 짖습니다,");
+        }
+        // Dog 클래스의 고유메서드
+        public void fetch(){
+            System.out.println("강아지가 공을 집습니다");
+        }
+    }
+

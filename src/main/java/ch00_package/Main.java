@@ -8,6 +8,8 @@ public class Main {
 
         /*
 
+
+
          2. next (Int / Dobule / Bollean, ... etc) vs. nextLine
          - nextLine()은 띄어쓰기를 허용합니다. enter키를 기준으로 데이터가 변수에 저장됩니다.
         그래서 scanner.nextLine() 으로 사용했을 떄 어제 kim il로 띄어쓰기를 했을 떄 저장이
@@ -18,6 +20,8 @@ public class Main {
          귀찮게 하는 부분이 있습니다.
 
         /*
+
+
         이상의 코드에서 문제점은 22번 라인이 실행됐을 때 데이터를 입력받지 않고
         그대로 넘가서 23번 라인과 24번 라인이 실행된다는 점입니다.
         이상의 문제는 nextInt()에서 값을 입력하고 enter를 치게 되는데,
@@ -25,6 +29,7 @@ public class Main {
         쳤다고 알아듣기 떄문에 곧장 23번 라인이 실행됐습니다.
 
         해결방법 : enter키를 받아주는 nextLine()을 하나더 적어줍니다.
+
 
 
 

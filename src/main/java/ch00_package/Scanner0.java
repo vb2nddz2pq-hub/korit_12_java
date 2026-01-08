@@ -14,7 +14,10 @@ public class Scanner0 {
         int age = scanner.nextInt();
         System.out.println("저는 올해" + age + "살입니다");
         System.out.println("내년에는" + (age +1 ) + "살이 됩니다")''
-
+         git add .
+                    git commit -m "feat: 20260107 inheritance / abstraction / interface"
+                    git push
+                    자격 증명 삭제
          */
 
         Scanner scanner = new Scanner(System.in);
