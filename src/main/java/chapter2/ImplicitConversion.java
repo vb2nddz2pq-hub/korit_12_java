@@ -19,6 +19,5 @@ public class ImplicitConversion {
         System.out.println(dNum);
 
 
-
     }
 }
