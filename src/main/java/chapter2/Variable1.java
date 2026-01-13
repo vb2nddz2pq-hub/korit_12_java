@@ -23,6 +23,7 @@ public class Variable1 {
               String 문자열 표현할떄 이름이나 주소
               double = 소숫점이 있는 숫자를나타낼때
               boolean = true 냐 false냐 를나타내는타입
+              add = 밑에있는 계산식을 실행해서 결과값을 가져와라
               for / while을 선택하는가?
               for = 횟수를 기준으로 특정 반복횟수가 되었을 때 반복을 정지하고 싶다면
               for = 같은 일을 반복해서 실행하고 싶을 때 쓰는 문법 (반복횟수 가정해져있을때)
