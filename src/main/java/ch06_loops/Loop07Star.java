@@ -59,6 +59,7 @@ public class Loop07Star {
                 System.out.print("🦑");
             }
             System.out.println();
+
         }
 
         // 역순 별찍기 # 2 - 개행 담당도 --로 처리하겠습니다.

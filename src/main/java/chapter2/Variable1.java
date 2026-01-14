@@ -32,6 +32,8 @@ public class Variable1 {
               if = 조건이 참(true)일때만 실행되는코드
               else = (그렇지않다면) if조건이 (false)일때 실행되는 코드
               switch = else if 가 길어질떄 값으로만 비교할때 경우의수가 명확한 값들
+              getter = 저장된값을꺼낸다
+              setter = 값저장할때
               yield =
               변수 = 변하는값
               상수 = 변하지 않는 값( 1년이 12개월이나 원주율이 3.14처럼변하지않는 상수는 대문자를주로사용함)
