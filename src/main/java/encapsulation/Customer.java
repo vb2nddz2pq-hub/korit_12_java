@@ -12,7 +12,7 @@ public class Customer {
     public double getBudget(){
         return budget;
     }
-    public void buyPhone(PhoneStore store){
+    public <PhoneStore> void buyPhone(PhoneStore store){
 
     }
 }

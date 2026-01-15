@@ -43,6 +43,7 @@ public class Variable1 {
               대입연산자 ==(같은가) != (다르냐) >(크다) <(작다)  = 오른쪽에있는걸왼쪽에대입
               논리연산자 && = AND (둘다참이어야함)  || = OR (하나만 참이어도 참) ! = NOT (반대)  ? = 초건이 참이면 값1 아니면 2
               증감연산자 i++ (i상자 안에숫자 1더하기) i-- (i안에숫자 1빼기)
+              ctrl d
                git add .
                     git commit -m "feat: 20260107 inheritance / abstraction / interface"
                     git push
